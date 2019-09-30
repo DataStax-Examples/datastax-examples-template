@@ -3,90 +3,56 @@
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. 
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+Please note we have a [Code of Conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
-## Pull Request Process
+## <a name="issue"></a> Found an Issue?
+If you find a bug in the source code or a mistake in the documentation, you can help us by
+[submitting an issue](#submit-issue) to the GitHub Repository. Even better, you can
+[submit a Pull Request](#submit-pr) with a fix.
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a 
-   build.
-2. Update the README.md with details of changes to the interface, this includes new environment 
-   variables, exposed ports, useful file locations and container parameters.
-3. Increase the version numbers in any examples files and the README.md to the new version that this
-   Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
-   do not have permission to do that, you may request the second reviewer to merge it for you.
+## <a name="feature"></a> Want a Feature?
+You can *request* a new feature by [submitting an issue](#submit-issue) to the GitHub
+Repository. If you would like to *implement* a new feature, please submit an issue with
+a proposal for your work first, to be sure that we can use it.
 
-## Code of Conduct
+* **Small Features** can be crafted and directly [submitted as a Pull Request](#submit-pr).
 
-### Our Pledge
+## <a name="submit"></a> Contribution Guidelines
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, gender identity and expression, level of experience,
-nationality, personal appearance, race, religion, or sexual identity and
-orientation.
+### <a name="submit-issue"></a> Submitting an Issue
+Before you submit an issue, search the archive, maybe your question was already answered.
 
-### Our Standards
+If your issue appears to be a bug, and hasn't been reported, open a new issue.
+Help us to maximize the effort we can spend fixing issues and adding new
+features, by not reporting duplicate issues.  Providing the following information will increase the
+chances of your issue being dealt with quickly:
 
-Examples of behavior that contributes to creating a positive environment
-include:
+* **Overview of the Issue** - if an error is being thrown a non-minified stack trace helps
+* **Motivation for or Use Case** - explain what are you trying to do and why the current behavior is a bug for you
+* **Reproduce the Error** - provide a live example or a unambiguous set of steps
+* **Suggest a Fix** - if you can't fix the bug yourself, perhaps you can point to what might be
+  causing the problem (line of code or commit)
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+### <a name="submit-pr"></a> Submitting a Pull Request (PR)
+Before you submit your Pull Request (PR) consider the following guidelines:
 
-Examples of unacceptable behavior by participants include:
+* Search the repository (https://github.com/bechbd/[repository-name]/pulls) for an open or closed PR that relates to your submission. You don't want to duplicate effort.
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+* Create a fork of the repo
+	* Navigate to the repo you want to fork
+	* In the top right corner of the page click **Fork**:
+	![](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
-### Our Responsibilities
+* Make your changes in the forked repo
+* Commit your changes using a descriptive commit message
+* In GitHub, create a pull request: https://help.github.com/en/articles/creating-a-pull-request-from-a-fork
+* If we suggest changes then:
+  * Make the required updates.
+  * Rebase your fork and force push to your GitHub repository (this will update your Pull Request):
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+    ```shell
+    git rebase master -i
+    git push -f
+    ```
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
-
-### Scope
-
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
-
-### Enforcement
-
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [INSERT EMAIL ADDRESS]. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
-
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
-
-### Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [http://contributor-covenant.org/version/1/4][version]
-
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
+That's it! Thank you for your contribution!
