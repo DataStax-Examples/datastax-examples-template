@@ -1,34 +1,41 @@
-# datastax-examples-template
-This a sample template repo for contributions to the DataStax Examples platform.  This provides the minimum set of items needed to create a new example for submission to the DataStax Examples platform.
+# datastax-example-template
+This application shows how to use configure your NodeJs application to connect to DDAC/Cassandra/DSE or an Apollo database at runtime.
 
-## Prerequisites
-* Git must be installed
-	* If it is not installed then follow the guide found [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-	
+Contributors: A listing of contributors to this repository linked to their github profile
+## Objectives
+A list of the top objectives that are being demonstrated by this sample
 
+e.g.
+* To demonstrate how to specify at runtime between a standard (DSE/DDAC/C*) client configuration and an Apollo configuration for the same application.
+  
+## Project Layout
+A list of key files within this repo and a short 1-2 sentence description of 
 
-## Cloning this Repo to get started
-In a Terminal window.
+e.g.
+* app.js - The main application file which contains all the logic to switch between the configurations
 
-1) Create a bare clone of the repository.
+## How this Sample Works
+A description of how this sample works and how it demonstrates the objectives outlined above
 
-	git clone --bare https://github.com/bechbd/datastax-examples-template.git`
+## Setup and Running
 
-2) Mirror-push to the new repository.
+### Prerequisites
+The prerequisites required for this application to run
 
-	cd datastax-examples-template.git
-	git push --mirror https://github.com/bechbd/<new repo name>.git`
+e.g.
+* NodeJs version 8
+* A DSE 6.7 Cluster
+* Schema added to the cluster
 
-3) Remove the temporary local repository you created in step 1.
+### Running
+The steps and configuration needed to run and build this application
 
-	cd ..
-	rm -rf datastax-examples-template.git
+e.g.
+To run this application use the following command:
 
+`node app.js`
 
+This will produce the following output:
 
-4) Clone the newly created repository from step 3.
+`Connected to cluster with 3 host(s) ["XX.XX.XX.136:9042","XX.XX.XX.137:9042","XX.XX.XX.138:9042"]`
 
-	git clone https://github.com/bechbd/<new repo name>.git
-	
-You are now ready to work away in this duplicated repo
- 
