@@ -18,7 +18,7 @@ A list of key files within this repo and a short 1-2 sentence description of why
 e.g.
 * app.js - The main application file which contains all the logic to switch between the configurations
 
-## How this Sample Works
+## How this Works
 A description of how this sample works and how it demonstrates the objectives outlined above
 
 ## Setup and Running
